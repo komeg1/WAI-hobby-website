@@ -1,0 +1,141 @@
+.container{
+clear: both; 
+margin:100px; 
+height:4200px;
+padding: 20px;
+}
+header{
+    text-align: center;
+    font-family: "Montserrat";
+    color:white;
+    font-size:  60px;
+}
+.mainText{
+    font-size: 25px;
+    
+}
+.mainText ul{
+    margin-bottom: 100px;
+}
+.mainText h2{
+    text-align: center; font-size: 55px;
+}
+.subcontainer{
+    display:flex;
+    justify-content: space-around;
+}
+.subcontainer img{
+    border-radius: 60%;
+}
+
+#falconShow{
+    text-align: center;
+    
+ 
+}
+.image p {
+    text-align: center; font-size: 15px;
+}
+#dragonparam{
+    display:flex;
+    
+}
+#dragonimgs img{
+    margin-left: 475px;
+    margin-top:30px;
+   text-align: center;
+}
+#dragonparam p{
+    clear: both;
+}
+table, th, td {
+    margin-left:80px;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  #starshipimgs{
+      display: flex;
+      justify-content: space-around;
+  }
+.starshipimg img{
+
+    margin-top:35px;
+    height:444px;
+    width: 100%;
+}
+
+#buttoncontainer{
+    margin-top:50px;
+    text-align: center;
+  }
+ #noscriptdragon img,#noscriptdragon p{
+     width:600px;
+     display:none;
+ }
+.button,#buttondragon {
+    
+    background-color: #0f00dd;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  #removebuttondragon {
+    background-color: rgb(150, 0, 0);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 730px;
+    margin-top:20px;
+    margin-bottom: 20px;
+  }
+  .button1{
+    font-size:20px;
+  }
+    #falcon9counter{
+        text-align:center;
+        font-size: 25px;
+    }
+
+  @media screen and (max-width: 768px){
+    header h1{ font-size:50px; }
+    body{overflow-x:hidden;}
+    .container{ margin:0; height:4000px; }
+    .subcontainer{display:block; font-size:20px;}
+    .mainText{font-size:20px;}
+    .image{display:none}
+    #falconShow img{width:100%;}
+    .starshipimg img{ margin-top:35px;height:225px;width: 100%;}
+      #dragonparam{display:block}
+    #dragonimgs img{ width:100%;height: 600px;margin:0;}
+    
+    #buttondragon{  margin-top:20px;}
+    #removebuttondragon{   margin-left: 265px;}
+    #falcon9counter{ text-align:center;font-size: 20px;
+    }
+
+}
+  @media screen and (max-width: 375px){
+      body{overflow-x:hidden;}
+      .container{ margin:0; height:3500px; }
+      .subcontainer{display:block; font-size:15px;}
+      .mainText{font-size:15px;}
+      .image{display:none}
+      #falconShow img{width:100%;}
+      #starshipimgs{display:block;}
+      .starshipimg img{ margin-top:35px;height:225px;width: 100%;}
+    #dragonparam{  display:block;}
+    #dragonimgs img{  width:100%;  height: auto;  margin:0;}
+    header h1{  font-size:40px;}
+    #buttondragon{  margin-top:20px;}
+    #removebuttondragon{ margin-left: 65px;}
+    #falcon9counter{ text-align:center;font-size: 15px;}
+}

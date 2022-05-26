@@ -1,0 +1,57 @@
+.container{
+   clear: both; 
+   margin:100px; 
+   height:2500px;
+}
+header{
+    text-align: center;
+    font-family: "Montserrat";
+    color:white;
+    font-size:  60px;
+}
+article h2{
+    text-align: center;
+    font-size:45px;
+}
+article p{
+    font-size:20px;
+}
+#chinaImg{
+    width:auto;
+    height:400px;
+    display:flex;
+    justify-content: space-around;
+}
+#chinaImg img{
+    width:auto;
+    height:400px;
+}
+
+#europaImg {
+    display: flex;
+    justify-content: space-around;
+}
+#moon1 {
+    margin-left:25px;
+}
+#moreInfo{
+    text-align: center; font-size:25px; margin-top:100px
+}
+@media screen and (max-width: 375px){
+    body{overflow-x:hidden;}
+    header h1{font-size: 35px;}
+    .container{ margin:0; height:4600px; }
+    .container h2{font-size:35px;}
+    #china p,#europe p,#currentTime p{font-size: 15px;}
+    #china{margin-bottom: 800px;}
+    #chinaImg,#europaImg{
+        display:block;
+    }
+    #chinaImg img,#europaImg img,#currentTime img{
+        
+        width:355px;
+        margin:10px;
+        height: 350px;
+    }
+    #moon1{margin-left:0;}
+}
